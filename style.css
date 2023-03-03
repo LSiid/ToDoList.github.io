@@ -1,0 +1,78 @@
+* {
+    font-family: 'Fredoka One', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(244, 250, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(blob-scene-haikei.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 500;
+    margin-top: 100px;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 5em;
+    background-color: rgba(253, 215, 108, 0.623);
+    border-radius: 20px;
+    backdrop-filter: blur( 4px );
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    padding: 15px;
+}
+
+input {
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 1.5em;
+    backdrop-filter: blur( 4px );
+    background-color: rgba(255, 222, 130, 0.527);
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    padding: 10px;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    font-size: 1em;
+    width: 800px;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: rgba(157, 219, 255, 0.315);
+    border-radius: 5px;
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+button {
+    font-size: 1em;
+    transition: all 0.2s;
+    margin-left: 20px;
+    padding: 8px;
+    height: 50px;
+    background-color: rgba(157, 219, 255, 0.315);
+    border-radius: 5px;
+    backdrop-filter: blur( 4px );
+    border: none;
+    width: 100px;
+    box-shadow: 0 0.3rem #e9e5e5a4;
+}
+
+button:active {
+    box-shadow: 0 0.2rem #e9e5e5d8;
+    transform: translateY(0.2rem);
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 1.5em;
+}
